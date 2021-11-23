@@ -1,0 +1,7 @@
+[Unit]
+Description=Restic backup service
+
+[Service]
+Type=oneshot
+ExecStart=%h/.zsh-custom/bin/restic-backup
+EnvironmentFile=%h/.config/restic/env.conf

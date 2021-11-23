@@ -1,0 +1,2 @@
+C:\Users\MY_USER\**
+/home/MY_USER/**
